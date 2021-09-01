@@ -1,10 +1,7 @@
-body{
-background-color: maroon;
-}
 .one{
     background-color: mediumturquoise;
 }
-.two{background-color: mintcream
+.two{background-color: orange
 
 
     ;}
@@ -13,3 +10,25 @@ background-color: maroon;
     
     }
     <div{background-color: papayawhip;}
+
+.four{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+background-color: maroon;
+}
+.five{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+.six{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.seven{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.eight{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contact{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
