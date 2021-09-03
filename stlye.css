@@ -1,3 +1,8 @@
+a{
+    font-size: 20px;
+}
+
+
 .one{
     background-color: mediumturquoise;
 }
@@ -6,10 +11,6 @@
 
     ;}
 
-    .three{background-color: papayawhip;
-    
-    }
-    <div{background-color: papayawhip;}
 
 .four{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
@@ -135,3 +136,4 @@ background-color: maroon;
     font-weight: 300;
     display: inline;
   }
+  
