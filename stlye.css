@@ -36,3 +36,10 @@ background-color: maroon;
 .project{
  text-align: center;
 }
+.index-font-align{
+    text-align: center;
+
+}
+.index-font{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
