@@ -13,13 +13,7 @@ table, th, td {
     background-color: #f8f8f9;
   }
   .center {
-    margin-right: auto;
-    margin-right: auto;
-  }
-  
-  table.html {
-    background-image: url("images/united.png");
-    background-size: 400px;
-    background-repeat: no-repeat; */
-    background-position: left: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
