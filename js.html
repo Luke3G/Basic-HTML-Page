@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>This is all created with JS</h1>
+    <script>
+        var body = document.body;
+        var newImg = document.createElement('img');
+        newImg.src = 'https://flxt.tmsimg.com/assets/p8640397_p_v10_az.jpg';
+        newImg.style.border = "5px dotted black";
+        newImg.style.height = "250px";
+        newImg.style.width = "200px";
+        body.appendChild(newImg);
+        body.style.backgroundColor = "red"
+        body.scrollTop = 50;
+
+        var newhead = document.createElement('h1');
+        var newheadText = document.createTextNode("Paranormal Activity 3");
+        newhead.appendChild(newheadText);
+        newhead.className = "paranormal";
+        newhead.style.color = "black";
+        body.appendChild(newhead);
+
+
+        var newp = document.createElement('p');
+        var newpText = document.createTextNode("Paranormal Activity is an American supernatural horror franchise consisting of eight films and additional media. Created by Oren Peli, the original film premiered in 2007 and was widely released in 2009.");
+        newp.appendChild(newpText);
+        newp.className = "descripton";
+        newp.style.color = "black";
+        newp.style.textAlign = "center";
+        body.appendChild(newp);
+
+        var review = document.createElement('p');
+        var newpText = document.createTextNode("This is a pretty good movie not that scary what I thought I was going to see but 8.5 out of 10");
+        review.appendChild(newpText);
+        review.className = "talk about";
+        review.style.color = "black";
+        review.style.textAlign = "center";
+        body.appendChild(review);
+
+
+        var theCast = document.createElement('h2');
+        var theCastText = document.createTextNode("Cast: Katie, Chole, Lauren, Chris");
+        theCast.appendChild(theCastText);
+        theCast.className = "Cast Of the movie";
+        theCast.style.color = "black";
+        theCast.style.textAlign = "center";
+        body.appendChild(theCast);
+
+        var cast = [
+            {
+                title: 'Katie',
+                actor: 'Katie',
+                isInOne: true
+
+            },
+            {
+                title: 'Katie',
+                actor: 'Chloe',
+                isInOne: false
+            },
+            {
+                title: 'Julie',
+                actor: 'Lauren',
+                isInOne: false
+            }
+        ]
+        
+        for (var i = 0; i < cast.length; i++) {
+            var bookP = document.createElement('p');
+            var bookDescription = document.createTextNode(cast[i].character + ' played by ' + cast[i].actor + ' was in the original ' + cast[i].isInOne);
+            bookP.appendChild(bookDescription);
+            bookP.style.color = "white";
+            bookP.style.fontSize = "20px";
+            document.body.appendChild(bookP);
+        }
+    
+    
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>
