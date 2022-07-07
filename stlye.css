@@ -170,8 +170,8 @@ table, th, td {
 table.html {
   background-image: url("images/united.png");
   background-size: 400px;
-  background-repeat: no-repeat; */
-  background-position: left: ;
+  background-repeat: no-repeat; 
+  background-position: left
   
 }
 .center {
